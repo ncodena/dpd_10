@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Núria's Recipes Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>Núria's Recipes Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              href="https://www.wbscodingschool.com/"
+              title="WBS Coding School"
+              target="_blank"
+              >WBS</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="recipes">
+        <h2>Recipes</h2>
+        <article>
+          <img
+            src="./images/muffins.jpg"
+            alt="Banana muffins"
+            title="Banana muffins"
+            width="200"
+          />
+          <h3>Banana Coffee Muffins</h3>
+          <a href="">View recipe</a>
+        </article>
+
+        <article>
+          <img
+            src="./images/frittata.jpg"
+            alt="frittata"
+            title="frittata"
+            width="200"
+          />
+          <h3>Chickpea Vegetable Frittata</h3>
+          <a href="">View recipe</a>
+        </article>
+
+        <article>
+          <img src="./images/ramen.jpg" alt="ramen" title="ramen" width="200" />
+          <h3>Spicy Ramen</h3>
+          <a href="">View recipe</a>
+        </article>
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          This blog is all about my passion for cooking.
+          <span>
+            Here you will find my favorite recupes along with tricks and tips to
+            make your cooking experience better.
+          </span>
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="POST">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required />
+
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>2024 by Núria</p>
+    </footer>
+  </body>
+</html>
