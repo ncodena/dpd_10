@@ -4,20 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Núria's Recipes Blog</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Núria's Recipes Blog</h1>
+      <h1 class="header" id="mainHeading">Núria's Recipes Blog</h1>
       <nav>
         <ul>
-          <li><a href="#recipes">Recipes</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="link" href="#recipes">Recipes</a></li>
+          <li><a class="link" href="#about">About</a></li>
+          <li><a class="link" href="#contact">Contact</a></li>
           <li>
             <a
               href="https://www.wbscodingschool.com/"
               title="WBS Coding School"
               target="_blank"
+              class="link"
               >WBS</a
             >
           </li>
@@ -26,49 +28,63 @@
     </header>
     <main>
       <section id="recipes">
-        <h2>Recipes</h2>
-        <article>
-          <img
-            src="./images/muffins.jpg"
-            alt="Banana muffins"
-            title="Banana muffins"
-            width="200"
-          />
-          <h3>Banana Coffee Muffins</h3>
-          <a href="">View recipe</a>
-        </article>
+        <h2 class="header">Recipes</h2>
+        <div class="recipesContainer">
+          <article>
+            <img
+              src="./images/muffins.jpg"
+              alt="Banana muffins"
+              title="Banana muffins"
+            />
+            <h3>Banana Coffee Muffins</h3>
+            <a href="">View recipe</a>
+          </article>
 
-        <article>
-          <img
-            src="./images/frittata.jpg"
-            alt="frittata"
-            title="frittata"
-            width="200"
-          />
-          <h3>Chickpea Vegetable Frittata</h3>
-          <a href="">View recipe</a>
-        </article>
+          <article>
+            <img src="./images/frittata.jpg" alt="frittata" title="frittata" />
+            <h3>Chickpea Vegetable Frittata</h3>
+            <a href="">View recipe</a>
+          </article>
 
-        <article>
-          <img src="./images/ramen.jpg" alt="ramen" title="ramen" width="200" />
-          <h3>Spicy Ramen</h3>
-          <a href="">View recipe</a>
-        </article>
+          <article>
+            <img src="./images/ramen.jpg" alt="ramen" title="ramen" />
+            <h3>Spicy Ramen</h3>
+            <a href="">View recipe</a>
+          </article>
+
+          <article>
+            <img src="./images/matcha.jpg" alt="matcha" title="matcha" />
+            <h3>Almond Matcha</h3>
+            <a href="">View recipe</a>
+          </article>
+
+          <article>
+            <img src="./images/tofu.jpg" alt="tofu" title="tofu" />
+            <h3>Spicy Sesame Tofu</h3>
+            <a href="">View recipe</a>
+          </article>
+
+          <article>
+            <img src="./images/coffee.jpg" alt="coffee" title="coffee" />
+            <h3>Iced Coffee</h3>
+            <a href="">View recipe</a>
+          </article>
+        </div>
       </section>
 
       <section id="about">
-        <h2>About</h2>
+        <h2 class="header">About</h2>
         <p>
           This blog is all about my passion for cooking.
           <span>
-            Here you will find my favorite recupes along with tricks and tips to
+            Here you will find my favorite recipes along with tricks and tips to
             make your cooking experience better.
           </span>
         </p>
       </section>
 
       <section id="contact">
-        <h2>Contact</h2>
+        <h2 class="header">Contact</h2>
         <form action="#" method="POST">
           <label for="email">Email</label>
           <input type="email" name="email" id="email" required />
@@ -81,8 +97,6 @@
         </form>
       </section>
     </main>
-    <footer>
-      <p>2024 by Núria</p>
-    </footer>
+    <footer>2024 by Núria</footer>
   </body>
 </html>

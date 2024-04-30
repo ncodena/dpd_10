@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(167, 213, 167);
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+.header {
+  color: rgb(23, 72, 23);
+  text-align: center;
+}
+
+#mainHeading {
+  font-size: 3rem;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.link {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: white;
+}
+
+article > a {
+  color: rgb(23, 72, 23);
+}
+
+nav {
+  background-color: rgb(23, 72, 23);
+  padding: 2rem;
+  border: 5px solid white;
+  margin: 2rem;
+}
+
+section {
+  margin: 2rem;
+}
+
+section#about {
+  background-color: white;
+  padding: 2rem;
+}
+
+section#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.recipesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+article {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  flex: 1 1 15rem;
+  max-width: 15rem;
+}
+
+article > img {
+  width: 100%;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Stacks the flex items vertically */
+  gap: 1rem;
+  width: 20rem;
+  padding: 1rem;
+}
+
+button {
+  background-color: white;
+  color: rgb(17, 101, 17);
+  padding: 1rem;
+  border: 0.1rem solid rgb(17, 101, 17);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(17, 101, 17);
+  color: white;
+}
+
+footer {
+  background-color: rgb(129, 179, 129);
+  padding: 1rem;
+  font-weight: bold;
+  color: rgb(17, 101, 17);
+  text-align: center;
+}
