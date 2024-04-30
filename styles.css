@@ -52,6 +52,7 @@ section {
 section#about {
   background-color: white;
   padding: 2rem;
+  text-align: center;
 }
 
 section#contact {
