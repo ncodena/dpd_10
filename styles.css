@@ -90,7 +90,7 @@ article > img {
 
 form {
   display: flex;
-  flex-direction: column; /* Stacks the flex items vertically */
+  flex-direction: column;
   gap: 1rem;
   width: 20rem;
   padding: 1rem;
@@ -100,7 +100,7 @@ button {
   background-color: white;
   color: rgb(17, 101, 17);
   padding: 1rem;
-  border: 0.1rem solid rgb(17, 101, 17);
+  border: 2px solid rgb(17, 101, 17);
   border-radius: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
